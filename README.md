@@ -116,55 +116,6 @@ O ecossistema é composto por 8 agentes especializados:
 
 ---
 
-## 📂 Estrutura do Repositório (Entregáveis)
-
-De acordo com os requisitos exigidos no projeto, este repositório está organizado da seguinte forma:
-
-* 
-`/agentes`: Documentação detalhada sobre a criação e a personalidade de cada agente.
-
-
-* 
-`/prompts`: Arquivos com as instruções de sistema (*system prompts*) configuradas no AutoGen para delimitar o comportamento dos especialistas.
-
-
-* 
-`/inputs`: Exemplos de briefings e pedidos iniciais em linguagem natural utilizados para testar a IA.
-
-
-* 
-`/roteiro-interacoes`: Log completo ou histórico textual de como o Orquestrador guiou as conversas.
-
-
-* 
-`/evidencias`: Prints, gravações ou logs que comprovam a execução real e autônoma do ecossistema de agentes.
-
-
-* 
-`/relatorio-perguntas`: Documento de texto respondendo às seguintes questões reflexivas da equipe:
-
-
-1. 
-*Influência do papel/personalidade nas decisões finais.* 
-
-
-2. 
-*Análise de conflitos entre agentes e soluções do Orquestrador.* 
-
-
-3. 
-*Riscos de má configuração de prompts (analisado por agente).* 
-
-
-4. 
-*Melhorias implementadas na coordenação multiagente.* 
-
-
-
-
-
----
-
 ### 🚀 Como Rodar o Projeto Localmente
 
 1. Certifique-se de ter o **AutoGen Studio** instalado em seu ambiente Python.
